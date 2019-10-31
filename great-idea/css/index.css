@@ -194,6 +194,30 @@ footer {
 
 /* This is the Services section */ 
 
+h2{
+	font-family: 'Bangers', cursive;
+	font-size: 26px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+.services-container{
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
 .services-header-img{
-	
+	width: 100%;
+}
+
+.services-header{
+	font-size: 30px;
+	margin-top:20px;
+}
+
+.services-paragraph{
+	padding:10px;
+	margin-bottom: 20px;
 }
