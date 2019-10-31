@@ -192,7 +192,7 @@ footer {
 	font-size: 14px;
 } 
 
-/* This is the Services section */ 
+/* This is the Services code */ 
 
 h2{
 	font-family: 'Bangers', cursive;
@@ -220,4 +220,20 @@ ul {
 .services-paragraph{
 	padding:10px;
 	margin-bottom: 20px;
+}
+
+.main{
+	padding: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.child{
+	border: 1px solid black;
+	width: 400px;
+	height: 300px;
+	padding: 20px;
+	margin-bottom: 40px;
+	background-color: #e5e2e2;
 }
